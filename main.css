@@ -1,0 +1,350 @@
+
+*{
+
+    padding: 0;
+    margin: 0;
+    font-family: Alegreya Sans;
+
+}
+.navbar{
+background-color:white;
+height: 60px ;
+list-style-type: none;
+padding:0px 70px ;
+
+}
+
+.navbar ul{
+list-style-type: none;
+
+}
+
+.list li{
+    float: right;
+    padding:20px ;
+    font-size:20px;
+}
+.list a{ 
+
+       text-decoration: none;
+       color: black;
+}
+.home .setting{
+
+    background-color: wheat;
+    width:40px;
+    margin-left:100%;
+}
+
+
+.home .setting img{
+    display: block;
+    width: 100%;
+}
+.home_line{
+width:100% ;
+height: 2px;
+background-color: #ae9768;
+
+}
+
+
+
+.navbar img{
+    height:50px;
+    width: 175px; 
+    float:left;
+}
+
+.clr{clear: both;}
+
+.home{
+    background-image: url("pics/drew-coffman-1872.jpg");
+    background-size: 100% 100%;
+    text-align: center;
+    padding:100px  ;
+    color: white;
+
+}
+.home h4{
+font-size:20px ;
+}
+.home h1{
+
+    margin: 10px 0px ;
+    font-size:75px ;
+    font-weight: 100;
+}
+
+.home p{
+
+    margin-bottom:30px;
+    font-size:25px;
+    line-height:40px ;
+}
+
+.home button{
+padding:15px 30px ;
+color:white;
+font-weight:900;
+font-size:18px;
+
+}
+
+ .home .btn1{
+background-color: #8e7754;
+border:2px solid   #8e7754;
+
+
+ }
+
+ .home .btn2{
+
+    background-color:transparent;
+    border:1px solid white ;
+
+ }
+
+ .home a{
+     display: block;
+     text-align: center;
+ }
+
+
+/* **********************section 2 *******************/
+
+.section2{
+    height:400px;
+    margin: 70px ;
+}
+.section2_img{
+    background-color: tomato;
+    width: 50%;
+    float: left;
+}
+
+.section2_img img{
+width:100% ;
+
+}
+.section2_info{
+    background-color:white;
+    width: 50%;
+    float: left;
+    padding:70px ;
+    box-sizing: border-box;
+    color: #807c7c;
+    font-family: Alegreya Sans;
+
+
+
+}
+ .clr{clear: both;}
+
+ .section2_info p{
+
+    padding:20px 0px ;
+    line-height:25px; 
+
+
+ }
+
+ .section2_info h2{
+
+    font-size:30px ;
+    color: black;
+    font-weight: 100;
+ }
+
+
+ .icon_p img{
+
+    float:left;
+    padding-top:10px ;
+
+ }
+
+ .icon_p  p{
+
+    float: left;
+ }
+
+ .clr{clear: both;}
+
+/* ****************section 3******************* */
+
+.section3{
+background-color: #f8f8f8;
+padding:100px 20px ;
+
+
+}
+
+.section3_info {
+    width:50% ;
+    float: left;
+    padding:150px 20px ;
+    box-sizing: border-box;
+
+}
+
+ .section3_info p{
+
+    padding: 20px;
+    line-height:20px ;
+    color:rgb(94, 92, 92);
+ }
+
+.section3_img{
+
+    background-color: tomato;
+    width: 50%;
+    float: left;
+}
+
+.section3_img img{
+width:100%
+}
+
+.clr{clear: both;}
+
+
+/* ****************************section 4 */
+
+
+.section4_info{
+    text-align: center;
+    padding: 30px 100px;
+}
+.section4_info h2{
+padding-bottom:20px ;
+}
+
+.section4_info p, .section4_div p{
+
+    color:gray;
+    line-height:30px ;
+}
+
+.section4_div{
+    width:33%;
+    float:left;
+    padding:50px;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+.section4_div h3{padding: 30px;}
+ .clr{
+     clear: both;
+ }
+.section4_div img{
+    width:100%;
+}
+
+
+/* **********************section5 map*/
+
+
+
+.section5_info{
+
+    background-color:whitesmoke ;
+    width:50%;
+    float:left;
+    padding:100px 50px;
+    box-sizing: border-box;
+
+}
+
+.section5_map{
+    background-color:whitesmoke;
+    width: 50%;
+    float: left;
+    padding: 50px;
+    box-sizing: border-box;
+
+}
+
+.clr{clear: both;}
+
+.contact img{
+    float: left;
+}
+
+.contact p, .contact address, .contact a{
+
+    float: left;
+    padding: 5px;
+    color:#686868;;
+}
+
+.clr{clear: both;}
+
+.section5_info h2{padding:10px ;}
+.section5_info h3{padding:10px;    color:#686868;;
+}
+.section5_info p{ color:#686868;line-height:30px ; text-size-adjust:100%;}
+
+/* ********************section6 info  ********************/
+.section6{
+    
+    background-color:#403d38;
+    padding:0 50px ;
+}
+.section6_info{
+    width: 25%;
+    float: left;
+    padding:70px 0px;   
+    box-sizing: border-box;
+}
+.clr{clear: both;}
+
+.section6_info .line{
+    width:70% ;
+    height:1px;
+    background-color: gray;
+    margin-left: 40px ;
+
+}
+
+.section6_info img, .section6_info p
+{
+    float: left;
+     padding: 10px;
+     color: gray;
+    }
+.clr{clear: both;}
+
+.section6_info h3{padding:20px ; color: white;}
+/* *************************last section************** */
+
+.last_section{
+    background-color:rgb(19, 18, 18);
+    text-align: center;
+    padding:50px ;
+}
+
+.last_section p{padding: 30px; color: gray;}
+
+
+  .test_img img{
+
+width:500px;
+height: 500px;
+transition:all 2 s;
+
+
+}
+
+
+
+ .test_img img:hover{
+
+    border-radius: 50%;
+     transform:rotate(180deg) ;
+    transform: scale(1,5s);
+    /* translate: (360deg);  */
+    /* width: 100px;
+    height:50px ;  */
+}
